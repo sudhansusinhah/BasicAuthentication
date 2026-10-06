@@ -22,6 +22,7 @@ namespace Basic_Authentication.Areas.HelpPage
             }
             else
             {
+
                 string Authenticationcode = actionContext.Request.Headers.Authorization.Parameter;
                 string decodestring = Encoding.UTF8.GetString(Convert.FromBase64String(Authenticationcode));
                 string[] usernamePassword = decodestring.Split(':');
