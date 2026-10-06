@@ -27,7 +27,7 @@ namespace Basic_Authentication.Areas.HelpPage
                 string[] usernamePassword = decodestring.Split(':');
                 string UserName = usernamePassword[0];
                 string Password = usernamePassword[1];
-                var test = "testing";
+              
             }
 
         }
